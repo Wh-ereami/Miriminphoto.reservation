@@ -19,8 +19,10 @@
 .item{
     display: flex;
     margin: 30px;
-    background-color: aqua;
+    background-color:#008156;
+    color: white;
     width: 180px; height: 80px;
+    font-size: 20px
 }
 
 .container2{
