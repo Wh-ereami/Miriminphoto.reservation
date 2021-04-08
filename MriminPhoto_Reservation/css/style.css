@@ -14,10 +14,12 @@
     align-items: center;
     justify-content: center;
     width: 50%; height: 100%;
+    float: left;
+    text-align: center;
+    background-color: blue;
 }
 
 .item{
-    display: flex;
     margin: 30px;
     background-color:#008156;
     color: white;
@@ -27,19 +29,50 @@
 
 .container2{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items:flex-end;
-    width: 100%;
+    justify-content: center;
+    width: 50%; height: 100%;
+    background-color: red;
 }
-.input{
-    width: 980px;
-    height: 80px;
+
+.information{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+
+}
+
+.phone{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.select{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
 }
 
 .check{
     text-align: center;
+    width: 100%; height: 100%;
+    background-color: yellow;
 }
 
 .result{
     text-align: center;
+    width: 100%; height: 100%;
+    background-color: yellowgreen;
 }
