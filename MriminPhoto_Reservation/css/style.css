@@ -21,6 +21,7 @@
 
 .item{
     margin: 30px;
+    border-radius: 10px;
     background-color:#008156;
     color: white;
     width: 180px; height: 80px;
