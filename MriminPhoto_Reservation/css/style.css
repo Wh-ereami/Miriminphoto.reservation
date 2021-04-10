@@ -17,44 +17,56 @@ body {
 .container{
     display: flex;
     justify-content: center;
+    color: white;
+    font-size: 20px;
 }
 
 .inform{
     width: 180px; height: 80px;
-    background-color: teal;
+    background-color: #008156;
+    border-radius: 10px;
 }
 
 .ex{
     width: 980px; height: 80px;
+    border-radius: 10px;
+    border: solid 2px #008156;
 }
 
 .phone{
     width: 180px; height: 80px;
-    background-color: blue;
+    background-color: #008156;
+    border-radius: 10px;
 }
 
 .number{
     width: 980px; height: 80px;
+    border-radius: 10px;
+    border: solid 2px #008156;
 }
 
 .select{
     width: 180px; height: 80px;
-    background-color: cornsilk;
+    background-color: #008156;
+    border-radius: 10px;
 }
 
 .radio-button{
     width: 980px; height: 80px;
-    border-color: cornsilk;
+    border: solid 2px #008156;
+    border-radius: 10px;
 }
 
 .calender{
     width: 180px; height: 80px;
-    background-color: wheat;
+    background-color: #008156;
+    border-radius: 10px;
 }
 
 .calender2{
-    background-color: darkgreen;
+    border: solid 2px #008156;
     width: 980px; height: 649px;
+    border-radius: 10px;
 }
 
 .check{
