@@ -9,70 +9,29 @@ body {
     font-family: "Noto Sans KR", sans-serif;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%; height: 100%;
-    float: left;
-    text-align: center;
-    background-color: whitesmoke;
+.container{
+    background-color: red;
+    width: 100%; height: 100%;
 }
 
-.item{
-    margin: 30px;
-    border-radius: 10px;
-    background-color:#008156;
-    color: white;
+.inform{
     width: 180px; height: 80px;
-    font-size: 20px
+    background-color: teal;
 }
 
 .container2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items:flex-end;
-    justify-content: center;
-    width: 50%; height: 100%;
-    background-color: wheat;
+    background-color: whitesmoke;
+    width: max-width;
 }
 
-.information{
-    margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items:flex-end;
-    justify-content: center;
-    width: 980px; height: 80px;
-    border-radius: 10px;
-
+.container3{
+    background-color: cornflowerblue;
 }
 
-.phone{
-    margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items:flex-end;
-    justify-content: center;
-    width: 980px; height: 80px;
-    border-radius: 10px;
+.container4{
+    background-color: darkgray;
 }
 
-.select{
-    margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items:flex-end;
-    justify-content: center;
-    width: 980px; height: 80px;
-    border-radius: 10px;
-}
 
 .check{
     text-align: center;
