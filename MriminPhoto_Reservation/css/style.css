@@ -95,37 +95,13 @@ h4{
 .radio-button{
     width: 980px; height: 80px;
     border: solid 2px #008156;
-    border-radius: 10px;
-}
-
-.selection{
+    border-radius: 10px;    
     display: flex;
-    justify-content: center;
-    vertical-align: miidle;
+    flex-direction: row;
 }
 
-label{
+.circle{
     margin-right: 30px;
-}
-
-input[type="radio"]{
-    display: none;
-}
-
-input[type="radio"] + label span {
-    display:inline-block;
-    width: 20px;
-    height: 20px;
-    margin:-1px 10px 0 0;
-    vertical-align:middle;
-    cursor:pointer;
-    border-radius: 50%;
-    background-color: white;
-    cursor:pointer;
-}
-
-input[type="radio"]:checked + label span {
-    border: solid 2px #008156;
 }
 
 .container3{
