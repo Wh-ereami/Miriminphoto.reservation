@@ -35,63 +35,6 @@ h4{
     line-height: 20px;
 }
 
-label{
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 35px;
-}
-
-input::placeholder{
-    font-family: 'Noto Sans KR';
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    opacity: 40%;
-}
-
-input:focus {
-    outline: none;
-}
-
-input[type=text]{
-    font-family: 'Noto Sans KR';
-    color: black;
-    font-size: 20px;
-    padding-left: 32px;
-    width: 948px; height: 80px;
-    border-radius: 10px;
-    border: solid 2px #008156;
-    flex-shrink: 0;
-}
-
-input[type=radio]{
-    display: none;
-}
-
-input[type=radio] + label span {
-    display:inline-block;
-    width:30px;
-    height:30px;
-    margin:-1px 10px 0 0;
-    vertical-align:middle;
-    cursor:pointer;
-    border-radius: 50%;
-    cursor:pointer;
-}
-
-.radio1{
-    background-color: #FFA3A3;
-}
-
-.radio2{
-    background-color: #FFE59D;
-}
-
-.radio3{
-    background-color: #9CFECD;
-}
-
 .text-container{
     text-align: center;
 }
@@ -119,11 +62,23 @@ input[type=radio] + label span {
     margin-right: 20px;
     font-size: 1.25rem;
     font-weight: 400;
-    flex-shrink: 0;
 }
 
-.pg-container{
-    display: flex;
+.ex{
+    width: 980px; height: 80px;
+    border-radius: 10px;
+    border: solid 2px #008156;
+    font-size: 15px;
+}
+
+.phone{
+    width: 180px; height: 80px;
+    background-color: #008156;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.number{
     width: 980px; height: 80px;
     border-radius: 10px;
     border: solid 2px #008156;
@@ -151,40 +106,38 @@ input[type=radio] + label span {
 
 .container3{
     color: black;
-    flex-shrink: 0;
-    align-items: center;
 }
 
 .calender{
-    display: flex;
-    width: 980px; height: 650px;
+    width: 180px; height: 80px;
+    background-color: #008156;
     border-radius: 10px;
     margin-right: 20px;
 }
 
 .calender2{
     border: solid 2px #008156;
-    flex-shrink: 0;
-    margin-bottom: 10rem;
+    width: 980px; height: 649px;
+    border-radius: 10px;
 }
 
-.result-container{
+.check{
+    text-align: center;
+    width: 100%; height: 100%;
+    margin-top: 150px;
+}
+
+.result{
     text-align: center;
     width: 100%; height: 100%;
     margin-top: 50px;
 }
 
-.result{
-    font-family: 'Noto Sans KR';
+.result2{
     width: 180px; height: 80px;
     font-size: 20px;
     background-color: white;
     color: #008156;
     border-radius: 10px;
     border: solid 2px #008156;
-}
-
-.result:hover{
-    background-color: #008156;
-    color: white;
 }
