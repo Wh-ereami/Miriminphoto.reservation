@@ -156,3 +156,39 @@ img{
     background-color: #008156;
     color: white;
 }
+
+.contact[type=text]{
+    margin-right: 100px ;
+    font-family: 'Noto Sans KR';
+    color: black;
+    font-size: 20px;
+    padding-left: 32px;
+    width: 578px; height: 80px;
+    border-radius: 10px;
+    border: solid 2px #008156;
+    flex-shrink: 0;
+}
+
+.item1{
+    margin-left: -45px;
+    width: 180px; 
+    height: 80px;
+    background-color: #008156;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    flex-shrink: 0;
+}
+
+
+.INWON[type=number]{
+    font-family: 'Noto Sans KR';
+    color: black;
+    font-size: 20px;
+    padding-left: 32px;
+    width: 178px; height: 80px;
+    border-radius: 10px;
+    border: solid 2px #008156;
+    flex-shrink: 0;
+}
