@@ -157,24 +157,27 @@ img{
     color: white;
 }
 
-.name1[type=text]{
-    font-family: 'Noto Sans KR';
-    color: black;
-    font-size: 20px;
-    padding-left: 32px;
-    width: 305px; height: 80px;
+
+.item1{
+    margin-left: -45px;
+    width: 180px; 
+    height: 80px;
+    background-color: #008156;
     border-radius: 10px;
-    border: solid 2px #FFD800;
+    margin-right: 20px;
+    font-size: 1.25rem;
+    font-weight: 400;
     flex-shrink: 0;
 }
 
-.grade[type=text]{
+
+.INWON[type=number]{
     font-family: 'Noto Sans KR';
     color: black;
     font-size: 20px;
     padding-left: 32px;
-    width: 315px; height: 80px;
+    width: 178px; height: 80px;
     border-radius: 10px;
-    border: solid 2px #FFD800;
+    border: solid 2px #008156;
     flex-shrink: 0;
 }
