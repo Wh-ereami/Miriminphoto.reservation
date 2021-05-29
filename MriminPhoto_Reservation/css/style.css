@@ -95,6 +95,11 @@ input[type=text]{
     flex-shrink: 0;
 }
 
+.item2{
+    margin-left: 20px;
+    margin-top: 0.5px;
+}
+
 .pg-container{
     display: flex;
     width: 848px; height: 80px;
@@ -155,4 +160,26 @@ img{
 .result:hover{
     background-color: #FFD800;
     color: white;
+}
+
+.name1[type=text]{
+    font-family: 'Noto Sans KR';
+    color: black;
+    font-size: 20px;
+    padding-left: 32px;
+    width: 275px; height: 80px;
+    border-radius: 10px;
+    border: solid 2px #FFD800;
+    flex-shrink: 0;
+}
+
+.grade[type=text]{
+    font-family: 'Noto Sans KR';
+    color: black;
+    font-size: 20px;
+    padding-left: 32px;
+    width: 280px; height: 80px;
+    border-radius: 10px;
+    border: solid 2px #FFD800;
+    flex-shrink: 0;
 }
